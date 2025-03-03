@@ -1,0 +1,12 @@
+seed: 0
+batch_size: 64
+T: 10
+encoding: binary
+model: spiking_vggsnn
+dataset: DVSGesture
+data_path: ~/datasets/DVSGesture
+workers: 16
+attack: SDA
+attack_eps: 0
+resume: ./checkpoints/VGGSNN_DVSGesture_binary.pth
+output_dir: ./logs/dvsgesture

@@ -1,0 +1,12 @@
+seed: 0
+batch_size: 64
+T: 10
+encoding: binary
+model: spiking_resnet18
+dataset: CIFAR10DVS
+data_path: ~/datasets/CIFAR10DVS
+workers: 16
+attack: SDA
+attack_eps: 0
+resume: ./checkpoints/ResNet18_CIFAR10DVS_binary.pth
+output_dir: ./logs/cifar10dvs

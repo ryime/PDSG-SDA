@@ -1,0 +1,12 @@
+seed: 0
+batch_size: 256
+T: 4
+encoding: direct
+model: spiking_resnet18
+dataset: CIFAR10
+data_path: ~/datasets/CIFAR10
+workers: 16
+attack: FGSM
+attack_eps: 2
+resume: ./checkpoints/ResNet18_CIFAR10.pth
+output_dir: ./logs/cifar10
