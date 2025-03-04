@@ -245,7 +245,7 @@ def main():
     net = set_PDSG(net)
     
     state = torch.load(args.resume, map_location=device)
-    net.load_state_dict(state['model'])
+    net.load_state_dict(state)
     
     torch.cuda.empty_cache()
     net.eval()
