@@ -25,6 +25,9 @@ conda create --name snn_attack python=3.11.9
 pip install -r requirements.txt
 ````
 
+## Download checkpoints
+Link: [Download model checkpoints](https://drive.google.com/drive/folders/1c8-D1VkeDGkBm2dEM2uppjsE2Yrp8Nca?usp=sharing)
+
 ## Run
 
 CIFAR10-ResNet18:
@@ -52,11 +55,8 @@ CIFAR10DVS-ResNet18:
 python test.py -c ./configs/resnet18_cifar10dvs_binary.yaml --data-path your_dataset_path
 ````
 
-## Download checkpoints
-Link: [Download model checkpoints](https://drive.google.com/drive/folders/1c8-D1VkeDGkBm2dEM2uppjsE2Yrp8Nca?usp=sharing)
-
 ## Acknowledgments
-The frame of this code is altered from [SpikingResformer](https://github.com/xyshi2000/SpikingResformer).
+The frame of this code is altered from [SpikingResformer](https://github.com/xyshi2000/SpikingResformer). We thank the authors for their contribution.
 
 ## Citation
 If you find this paper useful, please consider staring this repository and citing our paper:
