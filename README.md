@@ -26,7 +26,8 @@ pip install -r requirements.txt
 ````
 
 ## Download checkpoints
-Link: [Download model checkpoints](https://drive.google.com/drive/folders/1c8-D1VkeDGkBm2dEM2uppjsE2Yrp8Nca?usp=sharing)
+Google Drive: [Download model checkpoints](https://drive.google.com/drive/folders/1c8-D1VkeDGkBm2dEM2uppjsE2Yrp8Nca?usp=sharing)
+Hugging Face: [Download model checkpoints](https://huggingface.co/ryime/PDSG-SDA)
 
 ## Run
 
@@ -61,5 +62,10 @@ The frame of this code is altered from [SpikingResformer](https://github.com/xys
 ## Citation
 If you find this paper useful, please consider staring this repository and citing our paper:
 ````
-TODO
+@article{lun2025towards,
+  title={Towards Effective and Sparse Adversarial Attack on Spiking Neural Networks via Breaking Invisible Surrogate Gradients},
+  author={Lun, Li and Feng, Kunyu and Ni, Qinglong and Liang, Ling and Wang, Yuan and Li, Ying and Yu, Dunshan and Cui, Xiaoxin},
+  journal={arXiv preprint arXiv:2503.03272},
+  year={2025}
+}
 ````
