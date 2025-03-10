@@ -27,6 +27,7 @@ pip install -r requirements.txt
 
 ## Download checkpoints
 Google Drive: [Download model checkpoints](https://drive.google.com/drive/folders/1c8-D1VkeDGkBm2dEM2uppjsE2Yrp8Nca?usp=sharing)
+
 Hugging Face: [Download model checkpoints](https://huggingface.co/ryime/PDSG-SDA)
 
 ## Run
