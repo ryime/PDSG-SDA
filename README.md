@@ -1,6 +1,6 @@
 # Towards Effective and Sparse Adversarial Attack on Spiking Neural Networks via Breaking Invisible Surrogate Gradients (CVPR 2025)
 
-This repo is the official implementation of "Towards Effective and Sparse Adversarial Attack on Spiking Neural Networks via Breaking Invisible Surrogate Gradients" (CVPR 2025)
+This repo is the official implementation of "[Towards Effective and Sparse Adversarial Attack on Spiking Neural Networks via Breaking Invisible Surrogate Gradients](https://arxiv.org/abs/2503.03272)" (CVPR 2025)
 
 ## Requirements
 ````
@@ -22,6 +22,7 @@ torchvision==0.18.0
 
 ````
 conda create --name snn_attack python=3.11.9
+conda activate snn_attack
 pip install -r requirements.txt
 ````
 
