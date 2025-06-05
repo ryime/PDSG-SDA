@@ -64,10 +64,12 @@ The frame of this code is altered from [SpikingResformer](https://github.com/xys
 ## Citation
 If you find this paper useful, please consider staring this repository and citing our paper:
 ````
-@article{lun2025towards,
-  title={Towards Effective and Sparse Adversarial Attack on Spiking Neural Networks via Breaking Invisible Surrogate Gradients},
-  author={Lun, Li and Feng, Kunyu and Ni, Qinglong and Liang, Ling and Wang, Yuan and Li, Ying and Yu, Dunshan and Cui, Xiaoxin},
-  journal={arXiv preprint arXiv:2503.03272},
-  year={2025}
+@InProceedings{Lun_2025_CVPR,
+    author    = {Lun, Li and Feng, Kunyu and Ni, Qinglong and Liang, Ling and Wang, Yuan and Li, Ying and Yu, Dunshan and Cui, Xiaoxin},
+    title     = {Towards Effective and Sparse Adversarial Attack on Spiking Neural Networks via Breaking Invisible Surrogate Gradients},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {3540-3551}
 }
 ````
